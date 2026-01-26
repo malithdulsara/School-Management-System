@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface MarkService {
     void addMark(MarkDto markDto);
-    void update(MarkDto markDto);
+    void updateMark(MarkDto markDto);
     void deleteMark(Integer id);
     MarkDto searchById(Integer id);
     List<MarkDto> getAll();

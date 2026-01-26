@@ -16,7 +16,7 @@ public class ExamSubjectEntity {
     private Integer examSubjectId;
     private Integer examId;
     private Integer subjectId;
-    private Double maxMarks;
-    private Double minPassMarks;
+    private double maxMarks;
+    private double minPassMarks;
 
 }

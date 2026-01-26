@@ -5,7 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Date;
+import java.time.LocalDate;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,5 +20,5 @@ public class NonAcademicStaffEntity {
     private Integer schoolId;
     private String jobTitle;
     private String department;
-    private Date joinningDate;
+    private LocalDate joinningDate;
 }

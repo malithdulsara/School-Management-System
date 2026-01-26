@@ -14,27 +14,27 @@ public class AuditLogController {
     AuditLogService service;
 
     @PostMapping("/add")
-    public void addAuditLog(@RequestBody AuditLogDto auditLogDto){
+    public void addAuditLog(@RequestBody AuditLogDto auditLogDto) {
         service.addAuditLog(auditLogDto);
     }
 
     @PutMapping("/update")
-    public void updateAuditLog(@RequestBody AuditLogDto auditLogDto){
+    public void updateAuditLog(@RequestBody AuditLogDto auditLogDto) {
         service.updateAuditLog(auditLogDto);
     }
 
     @DeleteMapping("/delete/{id}")
-    public void deleteAuditLog(@PathVariable Integer id){
+    public void deleteAuditLog(@PathVariable Integer id) {
         service.deleteAuditLog(id);
     }
 
     @GetMapping("/get/{id}")
-    public AuditLogDto getAuditLog(@PathVariable Integer id){
+    public AuditLogDto getAuditLog(@PathVariable Integer id) {
         return service.searchById(id);
     }
 
     @GetMapping("/get-All")
-    public List<AuditLogDto> getAllAuditLog(){
+    public List<AuditLogDto> getAllAuditLog() {
         return service.getAll();
     }
 }
