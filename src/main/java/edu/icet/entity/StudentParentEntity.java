@@ -19,5 +19,5 @@ public class StudentParentEntity {
     private Integer studentId;
     private Integer parentId;
     private String relationship;
-    private boolean isEmergenceContact;
+    private boolean emergenceContact;
 }

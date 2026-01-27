@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.sql.Date;
+import java.time.LocalDate;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,6 +20,6 @@ public class StudentFeeEntity {
     private Integer studentFeeId;
     private Integer studentId;
     private Integer feeStructureId;
-    private Date dueDate;
+    private LocalDate dueDate;
     private FeeStatus status;
 }

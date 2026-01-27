@@ -14,5 +14,5 @@ public class StudentParentDto {
     private Integer studentId;
     private Integer parentId;
     private String relationship;
-    private boolean isEmergenceContact;
+    private boolean emergenceContact;
 }
