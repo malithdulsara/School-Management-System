@@ -9,5 +9,5 @@ public interface SubjectService {
     void updateSubjectDto(SubjectDto subjectDto);
     void deleteSubject(Integer id);
     SubjectDto searchById(Integer id);
-    List<SubjectDto> getALL();
+    List<SubjectDto> getAll();
 }

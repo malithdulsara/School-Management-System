@@ -7,7 +7,7 @@ import java.util.List;
 public interface TermService {
     void addTerm(TermDto termDto);
     void updateTerm(TermDto termDto);
-    void deleteTerm(TermDto termDto);
+    void deleteTerm(Integer id);
     TermDto searchById(Integer id);
     List<TermDto> getALL();
 }

@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Time;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -12,6 +12,6 @@ import java.sql.Time;
 public class TimeSlotDto {
     private Integer timeslotId;
     private Integer schoolId;
-    private Time startTime;
-    private Time endTime;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
 }
